@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia game</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <body background="assets\images\TriviaBackground.jpg">
+        <div id="mainQuizContainer">
+            <h1>Totally Trivia!!!</h1>
+            <br>
+            <br>
+            <h2>Time Remaining:
+                <span id="countdownClock">120</span>
+                <span>Seconds</span>
+                <br>
+                <br>
+                <!-- <button type="button" class="btn btn-secondary">Start Timer</button> -->
+
+            </h2>
+
+        </div>
+        <section>
+            <div id="quizQuestions">
+                <h3>Questions</h3>
+                <br>
+                <br>
+                <br>
+                <p>1. When did Ohio officially become a State?</p>
+                <br>
+                <form class="options">
+                    <input class="option1" type="radio" name="question1" id="button1" value=1803> 1803
+                    <br>
+                    <input class="option1" type="radio" name="question1" id="button2" value=1778> 1778
+                    <br>
+                    <input class="option1" type="radio" name="question1" id="button3" value=1921> 1921
+                    <br>
+                    <input class="option1" type="radio" name="question1" id="button4" value=NotSure> Not Sure</br>
+                </form>
+                <br>
+
+                <p>2. How many Presidents were born in Ohio?</p>
+                <br>
+                <form class="options">
+                    <input class="option2" type="radio" name="question2" value=1> 1
+                    <br>
+                    <input class="option2" type="radio" name="question2" value=4> 4
+                    <br>
+                    <input class="option2" type="radio" name="question2" value=8> 8
+                    <br>
+                    <input class="option2" type="radio" name="question2" value=5> 5
+                    </br>
+                </form>
+                <br>
+
+
+                <p>3. What is the name of the Professional Baseball team in Cincinnati?</p>
+                <br>
+                <form class="options">
+                    <input class="option3" type="radio" name="question3" value=Bluebirds> Bluebirds
+                    <br>
+                    <input class="option3" type="radio" name="question3" value=Redlegs> Redlegs
+                    <br>
+                    <input class="option3" type="radio" name="question3" value=Bearcats> Bearcats
+                    <br>
+                    <input class="option3" type="radio" name="question3" value=Reds> Reds</br>
+                </form>
+
+                <br>
+
+                <p>4. What is the capital of Ohio?</p>
+                <br>
+                <form class="options">
+                    <input class="option4" type="radio" name="question4" value=Columbus> Columbus
+                    <br>
+                    <input class="option4" type="radio" name="question4" value=Akron> Akron
+                    <br>
+                    <input class="option4" type="radio" name="question4" value=Cincinnati> Cincinnati
+                    <br>
+                    <input class="option4" type="radio" name="question4" value=Toledo> Toledo
+                    </br>
+                </form>
+                <br>
+                <p>5. Who is the head coach of the Ohio State Football Team?</p>
+                <br>
+                <form class="options">
+                    <input class="option5" type="radio" name="question5" value=TyronLue> Tyron Lue
+                    <br>
+                    <input class="option5" type="radio" name="question5" value=UrbanMeyer> Urban Meyer
+                    <br>
+                    <input class="option5" type="radio" name="question5" value=MarvinLewis> Marvin Lewis
+                    <br>
+                    <input class="option5" type="radio" name="question5" value=HueJackson> Hue Jackson</br>
+                </form>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div id="resultsContainer">
+                <span id="fullResults">Full Results: </span>
+                <span id="Answer"> Answers: </span>
+                <span id="correctAnswers"> Answered Correctly </span>
+                <span id="wrongAnswers">Answered Incorrectly </span>
+            </div>
+        </section>
+
+        </div>
+    </body>
+</body>
+
+</html>
