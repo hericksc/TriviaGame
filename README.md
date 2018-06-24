@@ -7,3 +7,6 @@ Instructions
 2.) Click on the "Test your Knowledge" button to see how you did
 3.) Refresh the page to start over
 
+The project is located at the following link:
+
+https://hericksc.github.io/TriviaGame/.
